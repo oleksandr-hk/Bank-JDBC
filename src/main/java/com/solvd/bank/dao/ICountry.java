@@ -1,6 +1,6 @@
 package com.solvd.bank.dao;
 
-import com.solvd.bank.entity.Country;
+import com.solvd.bank.entity.branch_with_fixed_relationship.Country;
 import java.util.List;
 
 public interface ICountry {

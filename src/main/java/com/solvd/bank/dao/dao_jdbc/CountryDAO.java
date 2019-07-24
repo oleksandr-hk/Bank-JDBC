@@ -2,7 +2,7 @@ package com.solvd.bank.dao.dao_jdbc;
 
 import com.solvd.bank.dao.ICountry;
 import com.solvd.bank.dao.connection_pool.ConnectionPoolQueue;
-import com.solvd.bank.entity.Country;
+import com.solvd.bank.entity.branch_with_fixed_relationship.Country;
 
 import java.sql.*;
 import java.util.ArrayList;

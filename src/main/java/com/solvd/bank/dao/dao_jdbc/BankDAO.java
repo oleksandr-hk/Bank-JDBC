@@ -2,7 +2,7 @@ package com.solvd.bank.dao.dao_jdbc;
 
 import com.solvd.bank.dao.IBank;
 import com.solvd.bank.dao.connection_pool.ConnectionPoolQueue;
-import com.solvd.bank.entity.Bank;
+import com.solvd.bank.entity.branch_with_fixed_relationship.Bank;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -34,8 +34,8 @@ public class BankDAO implements IBank {
                 Bank bank = new Bank();
                 bank.setId(rs.getLong("id") );
                 bank.setName(rs.getString("bank_name"));
-                bank.setIdLicense(rs.getLong("id_license"));
-                bank.setIdAddress(rs.getLong("Addresses_id"));
+                bank.setLicense(rs.getLong("id_license"));
+                bank.getAddress().setId(rs.getLong("Addresses_id"));
                 return bank;
             }
         } catch (SQLException ex) {
@@ -62,8 +62,8 @@ public class BankDAO implements IBank {
                 Bank bank = new Bank();
                 bank.setId(rs.getLong("id") );
                 bank.setName(rs.getString("bank_name"));
-                bank.setIdLicense(rs.getLong("id_license"));
-                bank.setIdAddress(rs.getLong("Addresses_id"));
+                bank.setLicense(rs.getLong("id_license"));
+                bank.getAddress().setId(rs.getLong("Addresses_id"));
                 banks.add(bank);
 
             }
@@ -87,8 +87,8 @@ public class BankDAO implements IBank {
 
             PreparedStatement preparedStatement = connection.prepareStatement(save);
             preparedStatement.setString(1,bank.getName());
-            preparedStatement.setLong(2,bank.getIdLicense());
-            preparedStatement.setLong(3,bank.getIdAddress());
+            preparedStatement.setLong(2,bank.getLicense());
+            preparedStatement.setLong(3,bank.getAddress().getId());
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
@@ -130,8 +130,8 @@ public class BankDAO implements IBank {
 
             PreparedStatement preparedStatement = connection.prepareStatement(update);
             preparedStatement.setString(1,bank.getName());
-            preparedStatement.setLong(2,bank.getIdLicense());
-            preparedStatement.setLong(3,bank.getIdAddress());
+            preparedStatement.setLong(2,bank.getLicense());
+            preparedStatement.setLong(3,bank.getAddress().getId());
             preparedStatement.setLong(4,bank.getId());
             preparedStatement.executeUpdate();
 

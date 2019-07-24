@@ -1,4 +1,4 @@
-package com.solvd.bank.entity;
+package com.solvd.bank.entity.branch_with_fixed_relationship;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,7 +9,7 @@ public class Branch {
 
     private Long id;
     private String name;
-    private Long idBank;
-    private Long idAddress;
+    private Bank bank;
+    private Address address;
 
 }

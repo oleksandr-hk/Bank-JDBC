@@ -2,7 +2,7 @@ package com.solvd.bank.dao.dao_jdbc;
 
 import com.solvd.bank.dao.ICity;
 import com.solvd.bank.dao.connection_pool.ConnectionPoolQueue;
-import com.solvd.bank.entity.City;
+import com.solvd.bank.entity.branch_with_fixed_relationship.City;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -35,7 +35,7 @@ public class CityDAO implements ICity {
                 City city = new City();
                 city.setId(rs.getLong("id") );
                 city.setName( rs.getString("name"));
-                city.setCountryId(rs.getLong("Countries_id"));
+                city.getCountry().setId(rs.getLong("Countries_id"));
                 return city;
             }
         } catch (SQLException ex) {
@@ -62,7 +62,7 @@ public class CityDAO implements ICity {
                 City city = new City();
                 city.setId(rs.getLong("id") );
                 city.setName( rs.getString("name"));
-                city.setCountryId(rs.getLong("Countries_id"));
+                city.getCountry().setId(rs.getLong("Countries_id"));
                 cities.add(city);
 
             }
@@ -86,7 +86,7 @@ public class CityDAO implements ICity {
 
             PreparedStatement preparedStatement = connection.prepareStatement(save);
             preparedStatement.setString(1,city.getName());
-            preparedStatement.setLong(2,city.getCountryId());
+            preparedStatement.setLong(2,city.getCountry().getId());
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
@@ -129,7 +129,7 @@ public class CityDAO implements ICity {
 
             PreparedStatement preparedStatement = connection.prepareStatement(update);
             preparedStatement.setString(1,city.getName());
-            preparedStatement.setLong(2,city.getCountryId());
+            preparedStatement.setLong(2,city.getCountry().getId());
             preparedStatement.setLong(3,city.getId());
             preparedStatement.executeUpdate();
 

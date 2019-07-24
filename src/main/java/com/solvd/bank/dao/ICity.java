@@ -1,6 +1,6 @@
 package com.solvd.bank.dao;
 
-import com.solvd.bank.entity.City;
+import com.solvd.bank.entity.branch_with_fixed_relationship.City;
 import java.util.List;
 
 public interface ICity {
