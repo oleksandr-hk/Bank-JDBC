@@ -90,7 +90,7 @@ public class DepartmentDAO implements IDepartment {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

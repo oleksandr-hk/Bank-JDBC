@@ -39,7 +39,7 @@ public class BankDAO implements IBank {
                 return bank;
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -69,7 +69,7 @@ public class BankDAO implements IBank {
             }
             return banks;
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

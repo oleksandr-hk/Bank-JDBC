@@ -107,7 +107,7 @@ public class CountryDAO implements ICountry {
             preparedStatement.executeUpdate(delete);
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -128,7 +128,7 @@ public class CountryDAO implements ICountry {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

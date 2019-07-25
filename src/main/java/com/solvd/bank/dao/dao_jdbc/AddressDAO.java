@@ -40,7 +40,7 @@ public class AddressDAO  implements IAddress {
                 return address;
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
 
@@ -150,7 +150,7 @@ public class AddressDAO  implements IAddress {
             preparedStatement.executeUpdate(delete);
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
 
@@ -174,7 +174,7 @@ public class AddressDAO  implements IAddress {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
 

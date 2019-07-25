@@ -67,7 +67,7 @@ public class CustomerTypeDAO implements ICustomerType {
             }
             return customerTypes;
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

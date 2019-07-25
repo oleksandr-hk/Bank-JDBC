@@ -127,7 +127,7 @@ public class CurrencyDAO implements ICurrency {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
 

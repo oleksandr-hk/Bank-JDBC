@@ -2,35 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad7bd8c-aa41-409e-8395-a5170b351a74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBranch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBranch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AccountDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AddressDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AddressDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BankDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BankDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BranchDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BranchDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CityDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CityDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ContractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ContractDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CountryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CountryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CurrencyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CurrencyDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Branch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AccountService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/ContractService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CountryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/TransactionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerTypeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerTypeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DealDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DealDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DepartmentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ServiceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ServiceDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TransactionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TransactionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TypeOfCardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TypeOfCardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CityService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,68 +61,43 @@
         <item name="jdbc:mysql://localhost:3306/bank(hometaskqaautomation)" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bank(hometaskqaautomation): schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="addresses: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="jdbc:mysql://localhost:3306/bank(hometaskqaautomation)" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bank(hometaskqaautomation): schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="cities: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="branches: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
-  </component>
-  <component name="DockManager">
-    <window id="7">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/City.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="187">
-                    <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1033436731">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="254" />
+          <entry key="java" value="285" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="254" />
+          <entry key="JAVA" value="285" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1587" />
+          <entry key="java" value="1658" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1587" />
+          <entry key="JAVA" value="1658" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -142,53 +106,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAddress.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DepartmentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="221">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CityDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#get#0;class#CityDAO#0" />
-                <element signature="method#getAll#0;class#CityDAO#0" />
-                <element signature="method#save#0;class#CityDAO#0" />
-                <element signature="method#update#0;class#CityDAO#0" />
+                <element signature="method#get#0;class#DepartmentDAO#0" />
+                <element signature="method#getAll#0;class#DepartmentDAO#0" />
+                <element signature="method#save#0;class#DepartmentDAO#0" />
+                <element signature="method#delete#0;class#DepartmentDAO#0" />
+                <element signature="method#update#0;class#DepartmentDAO#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/connection_pool/ConnectionPoolQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/BankService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="method#ConnectionPoolQueue#0;class#ConnectionPoolQueue#0" />
-                <element signature="method#getConnection#0;class#ConnectionPoolQueue#0" />
-                <element signature="method#releaseConnection#0;class#ConnectionPoolQueue#0" />
-                <element signature="method#closeAllConnections#0;class#ConnectionPoolQueue#0" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -233,39 +174,39 @@
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/City.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/connection_pool/ConnectionPoolQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CardDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AccountDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ContractDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CountryDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CurrencyDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerTypeDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DealDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DepartmentDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/EmployeeDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/LicenseDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ServiceDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TransactionDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TypeOfCardDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Country.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Branch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/City.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AddressService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BankDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBranch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BranchDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICustomer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/BankService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CityDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AccountDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AddressDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BankDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CityDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ContractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CountryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CurrencyDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerTypeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DealDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DepartmentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ServiceDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TransactionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TypeOfCardDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AddressService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solvd/bank/service/BankService.java" />
       </list>
     </option>
   </component>
@@ -287,8 +228,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1365" />
-    <option name="y" value="401" />
+    <option name="x" value="-1433" />
+    <option name="y" value="91" />
     <option name="width" value="697" />
     <option name="height" value="515" />
   </component>
@@ -297,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -338,36 +280,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank(JDBC-new)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank(JDBC)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao_jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank(JDBC-new)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank(JDBC)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank(JDBC-new)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank(JDBC)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="branch_with_fixed_relationship" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bank(JDBC-new)" type="b2602c69:ProjectViewProjectNode" />
@@ -378,18 +291,23 @@
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Bank(JDBC-new)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank(JDBC)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563989698442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563993866473" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -417,23 +335,23 @@
       <option name="presentableId" value="Default" />
       <updated>1563908275796</updated>
       <workItem from="1563908281550" duration="6701000" />
-      <workItem from="1563915021604" duration="21734000" />
+      <workItem from="1563915021604" duration="23522000" />
+      <workItem from="1564036863609" duration="2663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28435000" />
+    <option name="totallyTimeSpent" value="32886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="91" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23187633" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23454158" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -449,7 +367,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
@@ -482,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,9 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,8 +424,196 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IDeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/ContractService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/TransactionService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CountryService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/EmployeeService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AccountService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBranch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICountry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/connection_pool/ConnectionPoolQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="method#getInstance#0;class#ConnectionPoolQueue#0" />
+            <element signature="method#ConnectionPoolQueue#0;class#ConnectionPoolQueue#0" />
+            <element signature="method#getConnection#0;class#ConnectionPoolQueue#0" />
+            <element signature="method#releaseConnection#0;class#ConnectionPoolQueue#0" />
+            <element signature="method#closeAllConnections#0;class#ConnectionPoolQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+          <folding>
+            <element signature="method#get#0;class#AccountDAO#0" />
+            <element signature="method#getAll#0;class#AccountDAO#0" />
+            <element signature="method#save#0;class#AccountDAO#0" />
+            <element signature="method#delete#0;class#AccountDAO#0" />
+            <element signature="method#update#0;class#AccountDAO#0" />
+            <element signature="method#biggestAccount#0;class#AccountDAO#0" />
+            <element signature="method#avgBalance#0;class#AccountDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AddressDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="162" column="36" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#36#1" />
+            <element signature="e#0#23#1" />
+            <element signature="e#0#43#1" />
+            <element signature="e#0#36#1" />
+            <element signature="e#0#33#1" />
+            <element signature="e#0#82#1" />
+            <element signature="method#get#0;class#AddressDAO#0" />
+            <element signature="method#getAll#0;class#AddressDAO#0" />
+            <element signature="method#getAllForCity#0;class#AddressDAO#0" />
+            <element signature="method#save#0;class#AddressDAO#0" />
+            <element signature="method#delete#0;class#AddressDAO#0" />
+            <element signature="method#update#0;class#AddressDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BankDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding>
+            <element signature="method#get#0;class#BankDAO#0" />
+            <element signature="method#getAll#0;class#BankDAO#0" />
+            <element signature="method#save#0;class#BankDAO#0" />
+            <element signature="method#delete#0;class#BankDAO#0" />
+            <element signature="method#update#0;class#BankDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BranchDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#get#0;class#BranchDAO#0" />
+            <element signature="method#getForAddrId#0;class#BranchDAO#0" />
+            <element signature="method#getAllForOneBank#0;class#BranchDAO#0" />
+            <element signature="method#getAll#0;class#BranchDAO#0" />
+            <element signature="method#save#0;class#BranchDAO#0" />
+            <element signature="method#delete#0;class#BranchDAO#0" />
+            <element signature="method#update#0;class#BranchDAO#0" />
           </folding>
         </state>
       </provider>
@@ -533,12 +633,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ContractDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CityDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="476">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#get#0;class#CityDAO#0" />
+            <element signature="method#getAll#0;class#CityDAO#0" />
+            <element signature="method#save#0;class#CityDAO#0" />
+            <element signature="method#delete#0;class#CityDAO#0" />
+            <element signature="method#update#0;class#CityDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ContractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#36#1" />
+            <element signature="e#0#23#1" />
+            <element signature="e#0#40#1" />
+            <element signature="e#0#33#1" />
+            <element signature="e#0#119#1" />
             <element signature="method#get#0;class#ContractDAO#0" />
             <element signature="method#getAll#0;class#ContractDAO#0" />
             <element signature="method#save#0;class#ContractDAO#0" />
@@ -548,12 +667,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerTypeDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CountryDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+        <state relative-caret-position="720">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getAll#0;class#CountryDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CurrencyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="117" column="37" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#37#1" />
+            <element signature="e#0#24#1" />
+            <element signature="e#0#33#1" />
+            <element signature="e#0#34#1" />
+            <element signature="e#0#51#1" />
+            <element signature="method#get#0;class#CurrencyDAO#0" />
+            <element signature="method#getAll#0;class#CurrencyDAO#0" />
+            <element signature="method#save#0;class#CurrencyDAO#0" />
+            <element signature="method#delete#0;class#CurrencyDAO#0" />
+            <element signature="method#update#0;class#CurrencyDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#36#1" />
+            <element signature="e#0#23#1" />
+            <element signature="e#0#46#1" />
+            <element signature="e#0#47#1" />
+            <element signature="e#0#42#1" />
+            <element signature="e#0#33#1" />
+            <element signature="e#0#147#1" />
+            <element signature="method#get#0;class#CustomerDAO#0" />
+            <element signature="method#getAll#0;class#CustomerDAO#0" />
+            <element signature="method#getAllWithId#0;class#CustomerDAO#0" />
+            <element signature="method#getAllByIdBank#0;class#CustomerDAO#0" />
+            <element signature="method#save#0;class#CustomerDAO#0" />
+            <element signature="method#delete#0;class#CustomerDAO#0" />
+            <element signature="method#update#0;class#CustomerDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerTypeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#1" />
+            <element signature="e#0#30#1" />
+            <element signature="e#0#37#1" />
+            <element signature="e#0#38#1" />
+            <element signature="e#0#55#1" />
             <element signature="method#get#0;class#CustomerTypeDAO#0" />
             <element signature="method#getAll#0;class#CustomerTypeDAO#0" />
             <element signature="method#save#0;class#CustomerTypeDAO#0" />
@@ -563,10 +739,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DealDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#1" />
+            <element signature="e#0#19#1" />
+            <element signature="e#0#36#1" />
+            <element signature="e#0#29#1" />
+            <element signature="e#0#148#1" />
+            <element signature="method#get#0;class#DealDAO#0" />
+            <element signature="method#getAll#0;class#DealDAO#0" />
+            <element signature="method#save#0;class#DealDAO#0" />
+            <element signature="method#delete#0;class#DealDAO#0" />
+            <element signature="method#update#0;class#DealDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TypeOfCardDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#get#0;class#TypeOfCardDAO#0" />
@@ -580,24 +792,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/TransactionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="742">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#TransactionDAO#0" />
-            <element signature="method#getAll#0;class#TransactionDAO#0" />
-            <element signature="method#save#0;class#TransactionDAO#0" />
-            <element signature="method#delete#0;class#TransactionDAO#0" />
             <element signature="method#update#0;class#TransactionDAO#0" />
-            <element signature="method#findAvgTransactionSum#0;class#TransactionDAO#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/ServiceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="595">
+          <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#get#0;class#ServiceDAO#0" />
@@ -626,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/EmployeeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+        <state relative-caret-position="459">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#get#0;class#EmployeeDAO#0" />
@@ -640,222 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DepartmentDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AddressService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#DepartmentDAO#0" />
-            <element signature="method#getAll#0;class#DepartmentDAO#0" />
-            <element signature="method#save#0;class#DepartmentDAO#0" />
-            <element signature="method#delete#0;class#DepartmentDAO#0" />
-            <element signature="method#update#0;class#DepartmentDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IDeal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DealDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="127" column="34" lean-forward="true" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#DealDAO#0" />
-            <element signature="method#getAll#0;class#DealDAO#0" />
-            <element signature="method#save#0;class#DealDAO#0" />
-            <element signature="method#delete#0;class#DealDAO#0" />
-            <element signature="method#update#0;class#DealDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/ContractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/TransactionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CountryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CurrencyDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#CurrencyDAO#0" />
-            <element signature="method#getAll#0;class#CurrencyDAO#0" />
-            <element signature="method#save#0;class#CurrencyDAO#0" />
-            <element signature="method#delete#0;class#CurrencyDAO#0" />
-            <element signature="method#update#0;class#CurrencyDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AccountDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="method#get#0;class#AccountDAO#0" />
-            <element signature="method#getAll#0;class#AccountDAO#0" />
-            <element signature="method#save#0;class#AccountDAO#0" />
-            <element signature="method#delete#0;class#AccountDAO#0" />
-            <element signature="method#update#0;class#AccountDAO#0" />
-            <element signature="method#biggestAccount#0;class#AccountDAO#0" />
-            <element signature="method#avgBalance#0;class#AccountDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#CustomerDAO#0" />
-            <element signature="method#getAll#0;class#CustomerDAO#0" />
-            <element signature="method#getAllWithId#0;class#CustomerDAO#0" />
-            <element signature="method#getAllByIdBank#0;class#CustomerDAO#0" />
-            <element signature="method#save#0;class#CustomerDAO#0" />
-            <element signature="method#delete#0;class#CustomerDAO#0" />
-            <element signature="method#update#0;class#CustomerDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IBranch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICountry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="544">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,144 +864,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/ICity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/DepartmentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#get#0;class#DepartmentDAO#0" />
+            <element signature="method#getAll#0;class#DepartmentDAO#0" />
+            <element signature="method#save#0;class#DepartmentDAO#0" />
+            <element signature="method#delete#0;class#DepartmentDAO#0" />
+            <element signature="method#update#0;class#DepartmentDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/BankService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getBank#0;class#BankService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/entity/branch_with_fixed_relationship/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CountryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getAll#0;class#CountryDAO#0" />
-            <element signature="method#delete#0;class#CountryDAO#0" />
-            <element signature="method#update#0;class#CountryDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/IAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/CityDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#CityDAO#0" />
-            <element signature="method#getAll#0;class#CityDAO#0" />
-            <element signature="method#save#0;class#CityDAO#0" />
-            <element signature="method#update#0;class#CityDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/AddressDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#AddressDAO#0" />
-            <element signature="method#getAll#0;class#AddressDAO#0" />
-            <element signature="method#getAllForCity#0;class#AddressDAO#0" />
-            <element signature="method#save#0;class#AddressDAO#0" />
-            <element signature="method#delete#0;class#AddressDAO#0" />
-            <element signature="method#update#0;class#AddressDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/CityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/service/AddressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BankDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="124" column="34" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
-          <folding>
-            <element signature="method#get#0;class#BankDAO#0" />
-            <element signature="method#getAll#0;class#BankDAO#0" />
-            <element signature="method#save#0;class#BankDAO#0" />
-            <element signature="method#delete#0;class#BankDAO#0" />
-            <element signature="method#update#0;class#BankDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/dao_jdbc/BranchDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#get#0;class#BranchDAO#0" />
-            <element signature="method#getForAddrId#0;class#BranchDAO#0" />
-            <element signature="method#getAllForOneBank#0;class#BranchDAO#0" />
-            <element signature="method#getAll#0;class#BranchDAO#0" />
-            <element signature="method#save#0;class#BranchDAO#0" />
-            <element signature="method#delete#0;class#BranchDAO#0" />
-            <element signature="method#update#0;class#BranchDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/solvd/bank/dao/connection_pool/ConnectionPoolQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="method#ConnectionPoolQueue#0;class#ConnectionPoolQueue#0" />
-            <element signature="method#getConnection#0;class#ConnectionPoolQueue#0" />
-            <element signature="method#releaseConnection#0;class#ConnectionPoolQueue#0" />
-            <element signature="method#closeAllConnections#0;class#ConnectionPoolQueue#0" />
           </folding>
         </state>
       </provider>

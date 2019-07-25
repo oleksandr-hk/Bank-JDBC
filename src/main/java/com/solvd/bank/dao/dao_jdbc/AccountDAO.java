@@ -76,7 +76,7 @@ public class AccountDAO implements IAccount {
             }
             return accounts;
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         } finally {
 
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -104,7 +104,7 @@ public class AccountDAO implements IAccount {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         } finally {
                 ConnectionPoolQueue.getInstance().releaseConnection(connection);
         }
@@ -149,7 +149,7 @@ public class AccountDAO implements IAccount {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         } finally {
 
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

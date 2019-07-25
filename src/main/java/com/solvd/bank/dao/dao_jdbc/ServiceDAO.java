@@ -136,7 +136,7 @@ public class ServiceDAO implements IService {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

@@ -90,7 +90,7 @@ public class CityDAO implements ICity {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -111,7 +111,7 @@ public class CityDAO implements ICity {
             preparedStatement.executeUpdate(delete);
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

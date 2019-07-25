@@ -14,23 +14,23 @@ import com.solvd.bank.entity.branch_with_fixed_relationship.Address;
 
 public class AddressService {
 
-    private IAddress iAddress = new AddressDAO();
-    private ICity iCity =  new CityDAO();
-    private ICustomer iCustomer = new CustomerDAO();
-    private IBranch iBranch = new BranchDAO();
+    private IAddress addressDAO = new AddressDAO();
+    private ICity cityDAO =  new CityDAO();
+    private ICustomer customerDAO = new CustomerDAO();
+    private IBranch branchDAO = new BranchDAO();
 
 
     public Address addAddress(Address address, Long cityId){
-        address.setCity(iCity.get(cityId));
-        return iAddress.save(address);
+        address.setCity(cityDAO.get(cityId));
+        return addressDAO.save(address);
     }
 
     public Address getAddress(Long id){
 
-        Address address = iAddress.get(id);
-        address.setCity(iCity.get(address.getCity().getId()));
-        address.setCustomerList(iCustomer.getAllWithId(id));
-        address.setBranch(iBranch.getForAddrId(id));
+        Address address = addressDAO.get(id);
+        address.setCity(cityDAO.get(address.getCity().getId()));
+        address.setCustomerList(customerDAO.getAllWithId(id));
+        address.setBranch(branchDAO.getForAddrId(id));
 
         return address;
 

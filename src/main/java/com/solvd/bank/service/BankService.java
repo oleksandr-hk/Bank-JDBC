@@ -12,25 +12,21 @@ import com.solvd.bank.entity.branch_with_fixed_relationship.Bank;
 
 public class BankService {
 
-    private IBank iBank = new BankDAO();
-    private IBranch iBranch = new BranchDAO();
-    private IAddress iAddress = new AddressDAO();
-    private ICustomer iCustomer = new CustomerDAO();
+    private IBank bankDAO = new BankDAO();
+    private IBranch branchDAO = new BranchDAO();
+    private IAddress addressDAO = new AddressDAO();
+    private ICustomer customerDAO = new CustomerDAO();
 
     public Bank getBank(Long id){
 
-        Bank bank = iBank.get(id);
-        bank.setAddress(iAddress.get(id));
-        bank.setBranches(iBranch.getAllForOneBank(id));
-        bank.setCustomers(iCustomer.getAllByIdBank(id));
+        Bank bank = bankDAO.get(id);
+        bank.setAddress(addressDAO.get(id));
+        bank.setBranches(branchDAO.getAllForOneBank(id));
+        bank.setCustomers(customerDAO.getAllByIdBank(id));
 
         return bank;
 
     }
 
-
-    public Bank save(Bank bank){
-        return iBank.save(bank);
-    }
 
 }

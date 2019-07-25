@@ -10,16 +10,16 @@ import com.solvd.bank.entity.branch_with_fixed_relationship.City;
 
 public class CityService {
 
-    private ICountry iCountry = new CountryDAO();
-    private ICity iCity = new CityDAO();
-    private IAddress iAddress = new AddressDAO();
+    private ICountry countryDAO = new CountryDAO();
+    private ICity cityDAO = new CityDAO();
+    private IAddress addressDAO = new AddressDAO();
 
     public City getCity(Long id){
 
         City city = new City();
-        city = iCity.get(id);
-        city.setCountry(iCountry.get(city.getCountry().getId()));
-        city.setAddressList(iAddress.getAllForCity(id));
+        city = cityDAO.get(id);
+        city.setCountry(countryDAO.get(city.getCountry().getId()));
+        city.setAddressList(addressDAO.getAllForCity(id));
 
         return city;
 
@@ -27,12 +27,12 @@ public class CityService {
 
     public City save (City city){
 
-        return iCity.save(city);
+        return cityDAO.save(city);
     }
 
     public void remove(Long id){
 
-        iCity.delete(id);
+        cityDAO.delete(id);
     }
 
 

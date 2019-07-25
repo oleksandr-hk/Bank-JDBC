@@ -38,7 +38,7 @@ public class DealDAO  implements IDeal {
                 return deal;
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
 

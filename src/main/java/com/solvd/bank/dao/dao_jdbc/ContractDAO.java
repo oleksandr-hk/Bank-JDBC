@@ -38,7 +38,7 @@ public class ContractDAO implements IContract {
                 return contract;
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

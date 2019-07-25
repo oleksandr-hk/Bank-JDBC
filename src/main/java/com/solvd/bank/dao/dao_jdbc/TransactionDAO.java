@@ -74,7 +74,7 @@ public class TransactionDAO implements ITransaction {
             }
             return transactions;
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -147,7 +147,8 @@ public class TransactionDAO implements ITransaction {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -167,7 +168,7 @@ public class TransactionDAO implements ITransaction {
                 return rs.getDouble(1);
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

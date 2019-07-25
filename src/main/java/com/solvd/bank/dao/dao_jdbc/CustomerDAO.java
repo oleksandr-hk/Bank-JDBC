@@ -191,7 +191,7 @@ public class CustomerDAO implements ICustomer {
             preparedStatement.executeUpdate(delete);
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);

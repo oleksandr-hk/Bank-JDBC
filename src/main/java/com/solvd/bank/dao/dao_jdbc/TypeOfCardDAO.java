@@ -41,7 +41,7 @@ public class TypeOfCardDAO implements ITypeOfCard {
                 return typeOfCard;
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -71,7 +71,7 @@ public class TypeOfCardDAO implements ITypeOfCard {
             }
             return types;
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
@@ -93,7 +93,7 @@ public class TypeOfCardDAO implements ITypeOfCard {
             preparedStatement.executeUpdate();
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
 
@@ -117,7 +117,7 @@ public class TypeOfCardDAO implements ITypeOfCard {
             preparedStatement.executeUpdate(delete);
 
         } catch (SQLException ex) {
-            ex.printStackTrace();
+
         }
         finally {
             ConnectionPoolQueue.getInstance().releaseConnection(connection);
