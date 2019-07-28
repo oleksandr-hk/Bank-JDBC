@@ -1,19 +1,25 @@
 package com.solvd.bank.dao.connection_pool;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class ConnectionPoolQueue {
 
-    private String  driver;
-    private String  url;
-    private String  username;
-    private String  password;
+    private static String  driver;
+    private static String  url;
+    private static String  username;
+    private static String  password;
 
     private volatile int busyConnectionAmount;
-    private int  connectionsSize;
+    private static int  connectionsSize;
     private ArrayBlockingQueue<Connection> connections;
     private static ConnectionPoolQueue Instance;
 
@@ -21,9 +27,22 @@ public class ConnectionPoolQueue {
     //stupid lazy impl of singleton
     public  static ConnectionPoolQueue getInstance(){
 
-        if (Instance == null){
+        if (Instance == null) {
+
             try {
-                Instance = new ConnectionPoolQueue("com.mysql.jdbc.Driver","jdbc:mysql://localhost:3306/bank(hometaskqaautomation)","root","1111",10);
+
+                List<String> properties = ConnectionPoolQueue.getProperties();
+
+                if (!(properties.size() == 0)) {
+
+                     driver = properties.get(0);
+                     url    = properties.get(1);
+                     username  = properties.get(2);
+                     password  = properties.get(3);
+                     connectionsSize = Integer.parseInt(properties.get(4));
+                }
+
+                Instance = new ConnectionPoolQueue(driver,url,username,password,connectionsSize);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -101,6 +120,38 @@ public class ConnectionPoolQueue {
             }
             return true;
         } else  return  false;
+    }
+
+    public static List<String> getProperties(){
+
+        //read from file .properties
+        FileInputStream fis;
+        Properties property = new Properties();
+
+        try {
+
+            fis = new FileInputStream("src/main/resources/db.properties");
+            property.load(fis);
+
+            List<String> values = new ArrayList<>();
+
+            values.add( property.getProperty("db.driver"));
+            values.add(property.getProperty("db.url"));
+            values.add(property.getProperty("db.login"));
+            values.add(property.getProperty("db.password"));
+            values.add(property.getProperty("db.connectionAmount"));
+
+
+
+            return  values;
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+
     }
 
 }
