@@ -33,7 +33,7 @@ public class ConnectionPoolQueue {
 
                 List<String> properties = ConnectionPoolQueue.getProperties();
 
-                if (!(properties.size() == 0)) {
+                if (!(properties.isEmpty())) {
 
                      driver = properties.get(0);
                      url    = properties.get(1);
@@ -44,7 +44,7 @@ public class ConnectionPoolQueue {
 
                 Instance = new ConnectionPoolQueue(driver,url,username,password,connectionsSize);
             } catch (SQLException e) {
-                e.printStackTrace();
+
             }
         }
         return Instance;
@@ -114,7 +114,8 @@ public class ConnectionPoolQueue {
 
     public boolean closeAllConnections() throws SQLException {
 
-        if (connections.size() > 0){
+        if (connections.size() > 0) {
+
           for (Connection connection:connections){
                 connection.close();
             }
@@ -135,19 +136,17 @@ public class ConnectionPoolQueue {
 
             List<String> values = new ArrayList<>();
 
-            values.add( property.getProperty("db.driver"));
+            values.add(property.getProperty("db.driver"));
             values.add(property.getProperty("db.url"));
             values.add(property.getProperty("db.login"));
             values.add(property.getProperty("db.password"));
             values.add(property.getProperty("db.connectionAmount"));
 
-
-
             return  values;
 
 
         } catch (IOException e) {
-            e.printStackTrace();
+
         }
 
         return null;
