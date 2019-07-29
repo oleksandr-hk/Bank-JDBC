@@ -25,7 +25,7 @@ public class ConnectionPoolQueue {
 
 
     //stupid lazy impl of singleton
-    public  static ConnectionPoolQueue getInstance(){
+    public  static ConnectionPoolQueue getInstance() {
 
         if (Instance == null) {
 

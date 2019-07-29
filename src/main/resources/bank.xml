@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Banks>
+    <Bank>
+        <id>1</id>
+        <name>WD</name>
+        <license>1234</license>
+        <Address>
+            <idAddr>1</idAddr>
+            <address> Holovna 1</address>
+            <postalcode>11111</postalcode>
+            <City>
+                <idCity>1</idCity>
+                <nameCity>Kyiv</nameCity>
+                <Country>
+                    <idCountry>1</idCountry>
+                    <nameCountry>Ukraine</nameCountry>
+                </Country>
+            </City>
+        </Address>
+        <Customers>
+            <Customer>
+                <idCustomer>1</idCustomer>
+                <name>Yurii</name>
+                <surname>Boyko</surname>
+                <phone>1234567</phone>
+                <email>test@gmail.com</email>
+                <Address>
+                    <idAddrCustomer>3</idAddrCustomer>
+                </Address>
+            </Customer>
+
+            </Customers>
+    </Bank>
+
+        <Bank>
+            <id>2</id>
+            <name>PB</name>
+            <license>1234</license>
+            <Address>
+                <idAddr>2</idAddr>
+                <address> Holovna 1</address>
+                <postalcode>11111</postalcode>
+                <City>
+                    <idCity>1</idCity>
+                    <nameCity>Kyiv</nameCity>
+                    <Country>
+                        <idCountry>1</idCountry>
+                        <nameCountry>Ukraine</nameCountry>
+                    </Country>
+                </City>
+            </Address>
+            <Customers>
+                <Customer>
+                    <idCustomer>2</idCustomer>
+                    <name>Yurii</name>
+                    <surname>Boyko</surname>
+                    <phone>1234567</phone>
+                    <email>test@gmail.com</email>
+                    <Address>
+                        <idAddrCustomer>5</idAddrCustomer>
+                    </Address>
+                </Customer>
+
+            </Customers>
+        </Bank>
+
+        </Banks>
