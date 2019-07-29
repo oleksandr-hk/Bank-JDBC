@@ -12,17 +12,7 @@ public class Main {
 
     public static void main(String args[]){
 
-
-        try {
-            List<Bank> bankList = XMLReader.parseXML();
-            System.out.println(bankList.size());
-        } catch (XMLStreamException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-
-
+        
 
     }
 
